@@ -12591,6 +12591,11 @@ textarea.form-control {
   animation: loader-dash 1.5s ease-in-out infinite;
   stroke-linecap: round;
 }
+@media screen and (min-width: 1026px) {
+ .timeline-header{
+  position: absolute;
+ }
+}
 
 @-webkit-keyframes loader-rotate {
   100% {

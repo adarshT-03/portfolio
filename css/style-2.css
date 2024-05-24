@@ -1816,6 +1816,11 @@ textarea.form-control {
   stroke-linecap: round;
 }
 
+@media screen and (min-width: 1026px) {
+  .timeline-header{
+   position: absolute !important;
+  }
+ }
 @-webkit-keyframes loader-rotate {
   100% {
     -webkit-transform: rotate(360deg);
